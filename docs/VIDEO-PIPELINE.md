@@ -28,4 +28,4 @@ Add fictional-AI disclosure at the account, campaign, or page level. Retain mast
 
 ## Web presentation
 
-The campaign page does not re-encode its films. JavaScript calculates progress inside each long scroll section and seeks the original video file to the corresponding timestamp. The chase source remains first; the origin source remains second.
+JavaScript calculates progress inside each long scroll section and seeks the campaign delivery file to the corresponding timestamp. Keep high-bitrate editing masters in the production archive and create browser-compatible delivery encodes without changing the intended display resolution. The chase remains first; the origin film remains second.

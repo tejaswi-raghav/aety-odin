@@ -8,7 +8,7 @@
 
 Odin is ÆTY ONE's high-end global artifact hunter—and its long-term AI avatar. This repository is both his cinematic introduction and the working system used to keep his face, body, behavior, wardrobe language, and story coherent across generated images and films.
 
-The public experience opens with two scroll-controlled films in narrative order: **The Namibia Run** first, followed by **Meet Odin**. Both use the original source files directly; the browser maps scroll position to native video time without transcoding or lowering the encoded quality.
+The public experience opens with two scroll-controlled films in narrative order: **The Namibia Run** first, followed by **Meet Odin**. The browser maps scroll position to native video time. Editing masters remain outside the web repository; the site carries high-quality delivery encodes at their native display resolution for reliable browser playback.
 
 ## The objective
 

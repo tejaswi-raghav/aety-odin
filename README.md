@@ -8,6 +8,10 @@
 
 Odin is ÆTY ONE's high-end global artifact hunter—and its long-term AI avatar. This repository is both his cinematic introduction and the working system used to keep his face, body, behavior, wardrobe language, and story coherent across generated images and films.
 
+## Project context
+
+Odin belongs to the wider **ÆTY ONE** fashion universe. Explore the [ÆTY ONE storefront](https://aety-one-two.vercel.app) for DROP 01, AetyVerse, and the complete brand experience, or visit the [aety-one source repository](https://github.com/tejaswi-raghav/aety-one).
+
 The public experience opens with two scroll-controlled films in narrative order: **The Namibia Run** first, followed by **Meet Odin**. The browser maps scroll position to native video time. Editing masters remain outside the web repository; the site carries high-quality delivery encodes at their native display resolution for reliable browser playback.
 
 ## The objective

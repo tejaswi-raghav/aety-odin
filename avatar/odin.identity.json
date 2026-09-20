@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "aety-one.character.odin",
+  "displayName": "Odin",
+  "status": "fictional-ai-character",
+  "disclosure": "Odin is a fictional AI character created by ÆTY ONE.",
+  "story": {
+    "occupation": "High-end global artifact hunter and recovery specialist",
+    "knownAs": "The Between",
+    "startingTruth": "An initially unaware human vessel of a timeless force",
+    "arc": "He later discovers his true powers and purpose",
+    "publicPhase": "Before the awakening"
+  },
+  "appearance": {
+    "apparentAge": 27,
+    "presentation": "male",
+    "build": "tall, athletic, functional rather than bodybuilder-heavy",
+    "complexion": "warm olive-brown",
+    "face": "angular face, strong jaw, high cheekbones, straight nose",
+    "eyes": "deep-set hazel-brown eyes with a calm assessing gaze",
+    "hair": "long shoulder-length wavy dark-brown hair with weathered texture",
+    "facialHair": "dense dark beard with a defined moustache",
+    "skinDetail": "natural pores, light sun exposure, subtle travel wear; never plastic-smooth"
+  },
+  "performance": {
+    "baseline": "quietly intelligent, alert, controlled, capable",
+    "movement": "economical and purposeful with trained balance",
+    "humor": "dry and lightly mischievous",
+    "heroism": "protective action before grand declarations",
+    "avoid": [
+      "constant rage",
+      "superhero posing before the awakening",
+      "vacant fashion-model expression",
+      "exaggerated macho performance"
+    ]
+  },
+  "wardrobe": {
+    "language": "high-end global artifact hunter",
+    "silhouette": "layered technical outerwear, relaxed utility trousers, rugged premium footwear",
+    "palette": ["charcoal", "weathered black", "sand", "bone", "oxidized metal"],
+    "materials": ["washed cotton", "matte technical fabric", "aged leather", "brushed metal"],
+    "avoid": ["clean superhero suits", "literal Viking costume", "bright logos", "fantasy armor"]
+  },
+  "signatureObjects": [
+    "dark field watch",
+    "aged circular pendant",
+    "compact field camera",
+    "weathered technical pack"
+  ],
+  "continuity": {
+    "invariants": [
+      "facial geometry and apparent age",
+      "hair length, wave pattern, and color family",
+      "beard density and silhouette",
+      "eye color and calm gaze",
+      "body proportions and handedness",
+      "grounded pre-awakening performance",
+      "premium utilitarian wardrobe language"
+    ],
+    "allowedVariation": [
+      "location-appropriate dust, rain, sweat, and wear",
+      "era-specific layers that preserve silhouette",
+      "hair movement caused by environment",
+      "temporary injuries when story-tracked"
+    ],
+    "forbidden": [
+      "face substitution",
+      "untracked age shift",
+      "eye-color drift",
+      "short hair",
+      "clean-shaven appearance",
+      "unmotivated body-size changes",
+      "undisclosed depiction as a real person"
+    ]
+  }
+}

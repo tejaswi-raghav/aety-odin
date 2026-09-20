@@ -13,7 +13,7 @@
   <body>
     <header class="nav">
       <a class="wordmark" href="#top">ÆTY ONE®</a>
-      <a href="#chase">THE CHASE</a>
+      <nav class="nav-sections" aria-label="Film chapters"><a href="#chase">CHASE</a><a href="#origin">ORIGIN</a></nav>
       <span>CHARACTER_001</span>
     </header>
 
@@ -25,14 +25,14 @@
         <div class="hero-copy">
           <p>BEFORE THE SHIFT</p>
           <h1>MEET<br />ODIN.</h1>
-          <div><span>GLOBAL ARTIFACT HUNTER.<br />HUMAN, AS FAR AS HE KNOWS.</span><a href="#film">PLAY ORIGIN FILM ↓</a></div>
+          <div><span>GLOBAL ARTIFACT HUNTER.<br />HUMAN, AS FAR AS HE KNOWS.</span><a href="#chase">ENTER THE CHASE ↓</a></div>
         </div>
       </section>
 
       <div id="chase" class="section-anchor" aria-hidden="true"></div>
-      <section class="scroll-cinema" aria-label="Scroll-controlled preview of The Namibia Run">
+      <section class="scroll-cinema" aria-label="Scroll-controlled film: The Namibia Run">
         <div class="scroll-cinema-sticky" data-phase="0">
-          <video id="scroll-film" muted playsinline preload="auto" aria-hidden="true">
+          <video class="scroll-film" muted playsinline preload="auto" aria-hidden="true">
             <source src="/assets/odin-africa-chase.mp4" type="video/mp4" />
           </video>
           <div class="scroll-cinema-shade"></div>
@@ -45,21 +45,20 @@
         </div>
       </section>
 
-      <section class="chase-player pad">
-        <header><div><p class="eyebrow">FIELD LOG 001 / AFRICA</p><h2>THE NAMIBIA RUN.</h2></div><span>FULL TRANSMISSION / SOUND ON</span></header>
-        <video controls playsinline preload="metadata" aria-label="Odin — The Namibia Run">
-          <source src="/assets/odin-africa-chase.mp4" type="video/mp4" />
-          Your browser does not support embedded video.
-        </video>
-      </section>
-
-      <section id="film" class="film">
-        <div class="film-meta"><span>ÆTY ONE / CHARACTER 001</span><span>TRANSMISSION: ACTIVE</span></div>
-        <video controls playsinline preload="metadata" poster="/assets/meet-odin-port.png" aria-label="Meet Odin — an ÆTY ONE origin film">
-          <source src="/assets/meet-odin-film-v1.webm" type="video/webm" />
-          Your browser does not support embedded video.
-        </video>
-        <div class="film-title"><p>AN ÆTY ONE ORIGIN FILM</p><h2>MEET ODIN.</h2><span>00:16 / TRANSMISSION_001</span></div>
+      <div id="origin" class="section-anchor" aria-hidden="true"></div>
+      <section class="scroll-cinema scroll-cinema-origin" aria-label="Scroll-controlled film: Meet Odin">
+        <div class="scroll-cinema-sticky" data-phase="0">
+          <video class="scroll-film" muted playsinline preload="auto" aria-hidden="true">
+            <source src="/assets/meet-odin-film-v1.webm" type="video/webm" />
+          </video>
+          <div class="scroll-cinema-shade"></div>
+          <div class="scroll-cinema-top"><span>ÆTY ONE / CHARACTER 001</span><span>SCROLL TO CONTROL TIME</span></div>
+          <div class="scroll-moment moment-0"><small>TRANSMISSION 001</small><strong>MEET<br />ODIN.</strong></div>
+          <div class="scroll-moment moment-1"><small>OCCUPATION: RECOVERY SPECIALIST</small><strong>HE<br />FINDS.</strong></div>
+          <div class="scroll-moment moment-2"><small>IDENTITY: UNRESOLVED</small><strong>TIME<br />KNOWS.</strong></div>
+          <div class="scroll-moment moment-3"><small>THE FORCE IS STILL ASLEEP</small><strong>THE<br />BETWEEN.</strong></div>
+          <div class="scroll-progress"><i></i></div>
+        </div>
       </section>
 
       <section class="intro pad">

@@ -1,12 +1,16 @@
-const section = document.querySelector('.scroll-cinema');
-const shell = document.querySelector('.scroll-cinema-sticky');
-const film = document.querySelector('#scroll-film');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const sequences = [...document.querySelectorAll('.scroll-cinema')]
+  .map((section) => ({
+    section,
+    shell: section.querySelector('.scroll-cinema-sticky'),
+    film: section.querySelector('.scroll-film'),
+  }))
+  .filter(({ shell, film }) => shell && film);
 
-if (section && shell && film && !reduceMotion.matches) {
+if (sequences.length && !reduceMotion.matches) {
   let ticking = false;
 
-  const syncFilm = () => {
+  const syncFilm = ({ section, shell, film }) => {
     const start = section.offsetTop;
     const distance = Math.max(1, section.offsetHeight - window.innerHeight);
     const progress = Math.min(1, Math.max(0, (window.scrollY - start) / distance));
@@ -20,18 +24,22 @@ if (section && shell && film && !reduceMotion.matches) {
       if (Math.abs(film.currentTime - target) > .035) film.currentTime = target;
     }
 
+  };
+
+  const syncFilms = () => {
+    sequences.forEach(syncFilm);
     ticking = false;
   };
 
   const requestSync = () => {
     if (!ticking) {
       ticking = true;
-      requestAnimationFrame(syncFilm);
+      requestAnimationFrame(syncFilms);
     }
   };
 
-  film.addEventListener('loadedmetadata', syncFilm);
+  sequences.forEach(({ film }) => film.addEventListener('loadedmetadata', requestSync));
   window.addEventListener('scroll', requestSync, { passive: true });
   window.addEventListener('resize', requestSync, { passive: true });
-  syncFilm();
+  syncFilms();
 }

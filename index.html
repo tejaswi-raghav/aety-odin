@@ -8,11 +8,12 @@
     <title>Meet Odin — ÆTY ONE</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23080808'/%3E%3Cpath d='M16 48 31 14l17 34h-7l-4-9H25l-3 9zm12-16h6l-3-8z' fill='%23d9ff3f'/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <header class="nav">
       <a class="wordmark" href="#top">ÆTY ONE®</a>
-      <a href="#film">WATCH FILM</a>
+      <a href="#chase">THE CHASE</a>
       <span>CHARACTER_001</span>
     </header>
 
@@ -26,6 +27,29 @@
           <h1>MEET<br />ODIN.</h1>
           <div><span>GLOBAL ARTIFACT HUNTER.<br />HUMAN, AS FAR AS HE KNOWS.</span><a href="#film">PLAY ORIGIN FILM ↓</a></div>
         </div>
+      </section>
+
+      <section id="chase" class="scroll-cinema" aria-label="Scroll-controlled preview of The Namibia Run">
+        <div class="scroll-cinema-sticky" data-phase="0">
+          <video id="scroll-film" muted playsinline preload="auto" aria-hidden="true">
+            <source src="/assets/odin-africa-chase.mp4" type="video/mp4" />
+          </video>
+          <div class="scroll-cinema-shade"></div>
+          <div class="scroll-cinema-top"><span>ODIN / FIELD LOG 001</span><span>SCROLL TO CONTROL TIME</span></div>
+          <div class="scroll-moment moment-0"><small>NAMIBIA / 2027</small><strong>THEY<br />FOUND HIM.</strong></div>
+          <div class="scroll-moment moment-1"><small>OBJECT: UNKNOWN</small><strong>WRONG<br />MAN.</strong></div>
+          <div class="scroll-moment moment-2"><small>VELOCITY: RISING</small><strong>WRONG<br />TIME.</strong></div>
+          <div class="scroll-moment moment-3"><small>TRANSMISSION 002</small><strong>ODIN.</strong></div>
+          <div class="scroll-progress"><i></i></div>
+        </div>
+      </section>
+
+      <section class="chase-player pad">
+        <header><div><p class="eyebrow">FIELD LOG 001 / AFRICA</p><h2>THE NAMIBIA RUN.</h2></div><span>FULL TRANSMISSION / SOUND ON</span></header>
+        <video controls playsinline preload="metadata" aria-label="Odin — The Namibia Run">
+          <source src="/assets/odin-africa-chase.mp4" type="video/mp4" />
+          Your browser does not support embedded video.
+        </video>
       </section>
 
       <section id="film" class="film">

@@ -2,7 +2,7 @@
 
 > Building the permanent fictional face of ÆTY ONE: one identity, many timelines.
 
-[![Live experience](https://img.shields.io/badge/live-aety--odin.vercel.app-d9ff3f?style=flat-square&labelColor=080808)](https://aety-odin.vercel.app)
+[![Live experience](https://img.shields.io/badge/live-aety--odin.vercel.app-75baff?style=flat-square&labelColor=07090b)](https://aety-odin.vercel.app)
 ![Fictional AI character](https://img.shields.io/badge/disclosure-fictional%20AI%20character-edebe4?style=flat-square&labelColor=080808)
 ![Status](https://img.shields.io/badge/status-character%20system%20v0.1-edebe4?style=flat-square&labelColor=080808)
 
@@ -12,7 +12,9 @@ Odin is ÆTY ONE's high-end global artifact hunter—and its long-term AI avatar
 
 Odin belongs to the wider **ÆTY ONE** fashion universe. Explore the [ÆTY ONE storefront](https://aety-one-two.vercel.app) for DROP 01, AetyVerse, and the complete brand experience, or visit the [aety-one source repository](https://github.com/tejaswi-raghav/aety-one).
 
-The public experience opens with two scroll-controlled films in narrative order: **The Namibia Run** first, followed by **Meet Odin**. The browser maps scroll position to native video time. Editing masters remain outside the web repository; the site carries high-quality delivery encodes at their native display resolution for reliable browser playback.
+The public experience is deliberately simple. The landing page is one scroll-controlled field film—**The Namibia Run**—with mission data drawn from Odin's global artifact-recovery work. Its final frame opens a separate dossier page containing the origin film, photographic archives, the ÆTY ONE brand statement, Odin's first time anomaly, and a concealed antagonist tease.
+
+The browser maps landing-page scroll position to native video time. Editing masters remain outside the web repository; the site carries high-quality delivery encodes at their native display resolution for reliable browser playback.
 
 ## The objective
 
@@ -79,9 +81,10 @@ The detailed handoff is in [Video Pipeline](docs/VIDEO-PIPELINE.md). Planned cap
 │   └── VIDEO-PIPELINE.md
 ├── prompts/
 │   └── SCENE-TEMPLATE.md
-├── index.html                  # Campaign experience
+├── index.html                  # Chase-only landing experience
+├── story.html                  # Odin dossier and ÆTY ONE story page
 ├── styles.css                  # ÆTY ONE visual system
-├── script.js                   # Multi-film scroll controller
+├── script.js                   # Chase scroll controller
 └── vercel.json                 # Static deployment rules
 ```
 
@@ -93,7 +96,7 @@ No build step or dependencies are required.
 python3 -m http.server 4173
 ```
 
-Open `http://localhost:4173` and scroll through both film chapters. For correct seeking behavior, serve the directory over HTTP rather than opening `index.html` directly.
+Open `http://localhost:4173`, scroll through the chase, and follow the final dossier link. For correct seeking behavior, serve the directory over HTTP rather than opening `index.html` directly.
 
 ## Deploy
 

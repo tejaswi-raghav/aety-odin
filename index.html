@@ -3,97 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#080808" />
-    <meta name="description" content="Meet Odin, the fictional AI character and global artifact hunter at the center of the ÆTY ONE universe." />
-    <title>Meet Odin — ÆTY ONE</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23080808'/%3E%3Cpath d='M16 48 31 14l17 34h-7l-4-9H25l-3 9zm12-16h6l-3-8z' fill='%23d9ff3f'/%3E%3C/svg%3E" />
+    <meta name="theme-color" content="#07090b" />
+    <meta name="description" content="ÆTY ONE presents Odin — global explorer, artifact hunter, and the man between timelines." />
+    <title>ODIN — An ÆTY ONE Story</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2307090b'/%3E%3Cpath d='M16 48 31 14l17 34h-7l-4-9H25l-3 9zm12-16h6l-3-8z' fill='%2375baff'/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js" defer></script>
   </head>
-  <body>
-    <header class="nav">
-      <a class="wordmark" href="#top">ÆTY ONE®</a>
-      <nav class="nav-sections" aria-label="Film chapters"><a href="#chase">CHASE</a><a href="#origin">ORIGIN</a></nav>
-      <span>CHARACTER_001</span>
+  <body class="landing-page">
+    <header class="site-header">
+      <a class="wordmark" href="#chase" aria-label="ÆTY ONE home">ÆTY ONE®</a>
+      <span>ODIN / FIELD LOG 001</span>
+      <span>FICTIONAL AI CHARACTER</span>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <img src="/assets/meet-odin-port.png" alt="Odin crossing a rain-darkened international cargo port carrying an archival case" />
-        <div class="shade"></div>
-        <div class="hero-index"><span>TRANSMISSION_001</span><span>FICTIONAL AI CHARACTER / ÆTY ONE</span></div>
-        <div class="hero-copy">
-          <p>BEFORE THE SHIFT</p>
-          <h1>MEET<br />ODIN.</h1>
-          <div><span>GLOBAL ARTIFACT HUNTER.<br />HUMAN, AS FAR AS HE KNOWS.</span><a href="#chase">ENTER THE CHASE ↓</a></div>
-        </div>
-      </section>
-
-      <div id="chase" class="section-anchor" aria-hidden="true"></div>
-      <section class="scroll-cinema" aria-label="Scroll-controlled film: The Namibia Run">
+    <main>
+      <section id="chase" class="scroll-cinema" aria-label="The Namibia Run — a scroll-controlled Odin field film">
         <div class="scroll-cinema-sticky" data-phase="0">
           <video class="scroll-film" muted playsinline preload="auto" aria-hidden="true">
             <source src="/assets/odin-africa-chase-v2.mp4" type="video/mp4" />
           </video>
-          <div class="scroll-cinema-shade"></div>
-          <div class="scroll-cinema-top"><span>ODIN / FIELD LOG 001</span><span>SCROLL TO CONTROL TIME</span></div>
-          <div class="scroll-moment moment-0"><small>NAMIBIA / 2027</small><strong>THEY<br />FOUND HIM.</strong></div>
-          <div class="scroll-moment moment-1"><small>OBJECT: UNKNOWN</small><strong>WRONG<br />MAN.</strong></div>
-          <div class="scroll-moment moment-2"><small>VELOCITY: RISING</small><strong>WRONG<br />TIME.</strong></div>
-          <div class="scroll-moment moment-3"><small>TRANSMISSION 002</small><strong>ODIN.</strong></div>
-          <div class="scroll-progress"><i></i></div>
+          <div class="cinema-shade"></div>
+          <div class="cinema-grid" aria-hidden="true"></div>
+
+          <div class="mission-top">
+            <span>ÆTY ONE / CHARACTER 001</span>
+            <span class="signal"><i></i> FIELD SIGNAL LIVE</span>
+          </div>
+
+          <aside class="route-data" aria-label="Mission coordinates">
+            <span>NAMIB / 2027</span>
+            <span>23°25′S</span>
+            <span>15°18′E</span>
+            <span>ELEV. 612M</span>
+          </aside>
+
+          <div class="scroll-moment moment-0">
+            <p>ÆTY ONE PRESENTS</p>
+            <h1>ODIN.</h1>
+            <span>GLOBAL EXPLORER / ARTIFACT RECOVERY</span>
+          </div>
+
+          <div class="scroll-moment moment-1">
+            <p>FIELD LOG 001 / NAMIBIA</p>
+            <h2>THE RECOVERY<br />WAS COMPROMISED.</h2>
+            <span>OBJECT: CLASSIFIED &nbsp;·&nbsp; EXTRACTION: CANCELLED</span>
+          </div>
+
+          <div class="scroll-moment moment-2">
+            <p>PURSUIT VECTOR / SOUTHWEST</p>
+            <h2>TWO VEHICLES.<br />NO LOCAL SUPPORT.</h2>
+            <span>ODIN KEPT THE OBJECT.</span>
+          </div>
+
+          <div class="scroll-moment moment-3">
+            <p>SUBJECT STATUS / MOVING</p>
+            <h2>HE FINDS WHAT<br />OTHERS CAN'T.</h2>
+            <span>ARCHAEOLOGIST &nbsp;·&nbsp; FIXER &nbsp;·&nbsp; SURVIVOR</span>
+          </div>
+
+          <div class="scroll-moment moment-4 final-moment">
+            <p>FIELD LOG COMPLETE</p>
+            <h2>THE CHASE<br />WAS THE EASY PART.</h2>
+            <a class="primary-action" href="/story.html">OPEN ODIN'S DOSSIER <span>→</span></a>
+          </div>
+
+          <div class="scroll-cue"><span>SCROLL TO ADVANCE</span><i></i></div>
+          <div class="scroll-progress" aria-hidden="true"><i></i></div>
         </div>
       </section>
-
-      <div id="origin" class="section-anchor" aria-hidden="true"></div>
-      <section class="scroll-cinema scroll-cinema-origin" aria-label="Scroll-controlled film: Meet Odin">
-        <div class="scroll-cinema-sticky" data-phase="0">
-          <video class="scroll-film" muted playsinline preload="auto" aria-hidden="true">
-            <source src="/assets/meet-odin-film-v2.mp4" type="video/mp4" />
-          </video>
-          <div class="scroll-cinema-shade"></div>
-          <div class="scroll-cinema-top"><span>ÆTY ONE / CHARACTER 001</span><span>SCROLL TO CONTROL TIME</span></div>
-          <div class="scroll-moment moment-0"><small>TRANSMISSION 001</small><strong>MEET<br />ODIN.</strong></div>
-          <div class="scroll-moment moment-1"><small>OCCUPATION: RECOVERY SPECIALIST</small><strong>HE<br />FINDS.</strong></div>
-          <div class="scroll-moment moment-2"><small>IDENTITY: UNRESOLVED</small><strong>TIME<br />KNOWS.</strong></div>
-          <div class="scroll-moment moment-3"><small>THE FORCE IS STILL ASLEEP</small><strong>THE<br />BETWEEN.</strong></div>
-          <div class="scroll-progress"><i></i></div>
-        </div>
-      </section>
-
-      <section class="intro pad">
-        <div><p class="eyebrow">ODIN / CHARACTER_001</p><h2>HE FINDS<br />WHAT OTHERS<br />CAN'T.</h2></div>
-        <div class="intro-copy">
-          <p>Odin is a high-end global artifact hunter. He crosses borders, private archives and forgotten routes to recover objects that should not exist.</p>
-          <p>He thinks he is human. He is—just not only human.</p>
-          <dl>
-            <div><dt>BASE</dt><dd>EVERYWHERE / NOWHERE</dd></div>
-            <div><dt>OCCUPATION</dt><dd>RECOVERY SPECIALIST</dd></div>
-            <div><dt>KNOWN AS</dt><dd>THE BETWEEN</dd></div>
-            <div><dt>STATUS</dt><dd>UNAWARE</dd></div>
-          </dl>
-        </div>
-      </section>
-
-      <section class="split">
-        <figure><img src="/assets/meet-odin-reflection.png" alt="Odin facing a reflection that appears fractionally out of sync" /><figcaption>ARCHIVE CORRIDOR / TIME INDEX UNKNOWN</figcaption></figure>
-        <div class="split-copy"><p class="eyebrow">THE FIRST ANOMALY</p><blockquote>“Different time.<br />Same man.”</blockquote><p>Watches stop. Shadows disagree. Reflections arrive late. Odin treats each incident like bad equipment—until the evidence begins using his name.</p></div>
-      </section>
-
-      <section class="statement pad">
-        <p>BEFORE THE MYTH</p>
-        <h2>A MAN.<br />BEFORE THE POWER<br />A PURPOSE.</h2>
-        <div><span>ODIN IS THE MAN.</span><span>THE FORCE IS STILL ASLEEP.</span></div>
-      </section>
-
-      <section class="portrait">
-        <img src="/assets/odin-key-visual.png" alt="Odin walking through an archival terminal in a weathered technical outfit" />
-        <div><p class="eyebrow">THE BETWEEN</p><h2>SOME JOURNEYS BEGIN<br />BEFORE YOU KNOW<br />YOU HAVE LEFT.</h2></div>
-      </section>
-
-      <section class="disclosure pad"><span>CREATIVE DISCLOSURE</span><p>Odin is a fictional AI character created by ÆTY ONE. His world is fictional; his identity remains consistent across every appearance.</p><a href="#top">RETURN TO TOP ↑</a></section>
     </main>
-
-    <footer class="pad"><h2>ÆTY ONE®</h2><div><span>ODIN / CHARACTER_001</span><span>BEYOND TIME. FOR EVERY ONE.</span><span>© 2026 ÆTY ONE</span></div></footer>
   </body>
 </html>
